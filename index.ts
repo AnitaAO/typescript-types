@@ -11,7 +11,12 @@ appDiv.innerHTML = `<h1>TypeScript Types</h1>
 let a: number; //type number
 let b: "string"; //type string
 let c: boolean; //type boolean
-let d: any; //type any
+let d: any; //type any  =>  meaning variable "d" can be reassigned to a string, boolean, number etc
+d = 5;
+d = "girl";
+d = true;
+d = false;
+
 let e: any = [1, 2, 3]; // type any number array
 let f: any[] = [1, true, 3, false, "boy"] //type any array
 
